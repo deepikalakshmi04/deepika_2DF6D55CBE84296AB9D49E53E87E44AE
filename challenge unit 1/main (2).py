@@ -5,6 +5,6 @@ def isLeapYear(year):
    return False
 year=int(input("ENTER THE YEAR : ")) 
 if isLeapYear(year):
-   print(year,"IS A LOOP YEAR ")
+   print(year,"IS A LEAP YEAR ")
 else:
-   print(year,"IS NOT A LOOP YEAR ")
+   print(year,"IS NOT A LEAP YEAR ")
